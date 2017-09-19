@@ -5,7 +5,4 @@
     <string name="edit_message_añoNacimiento">Introduce tu año de nacimiento:</string>
     <string name="button_send">Enviar</string>
     <string name="tituloActivity2">Mensaje introducido</string>
-    <string name="nombreIntroducido">Nombre:</string>
-    <string name="apellidoIntroducido">Apellido:</string>
-    <string name="fechaIntroducida">Año Nacimiento:</string>
 </resources>

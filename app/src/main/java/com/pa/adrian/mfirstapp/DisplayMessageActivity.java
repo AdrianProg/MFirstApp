@@ -30,9 +30,9 @@ public class DisplayMessageActivity extends AppCompatActivity {
          asignado para que así resulte más fácil su personalización, ya que se puede hacer desde el
          visor de texto del layout activity_display_message. */
 
-        tvMensajeNombre.setText(R.string.nombreIntroducido + mensajeNombre);
-        tvMensajeApellido.setText(R.string.apellidoIntroducido  + mensajeApellido);
-        tvMensajeFecha.setText(R.string.fechaIntroducida  + mensajeFecha);
+        tvMensajeNombre.setText("Nombre: " + mensajeNombre);
+        tvMensajeApellido.setText("Apellidos: " + mensajeApellido);
+        tvMensajeFecha.setText("Año de nacimiento: "  + mensajeFecha);
 
         /* Por último se utilizan los setText en los que se introducen los String de los mensajes
          introducidos en la anterior activity para mostrarlo en ésta. */
