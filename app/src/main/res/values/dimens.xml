@@ -2,10 +2,10 @@
 <resources>
 
     <dimen name="paddingPrincipal">16dp</dimen>
-    <dimen name="tamañoTituloActivity2">35dp</dimen>
+    <dimen name="tamañoTituloActivity2">35sp</dimen>
     <dimen name="margenTopBoton">25dp</dimen>
-    <dimen name="margenTopMensajeRecibido">25dp</dimen>
-    <dimen name="tamañoMensajeRecibido">15dp</dimen>
+    <dimen name="margenTopMensajeRecibido">25sp</dimen>
+    <dimen name="tamañoMensajeRecibido">15sp</dimen>
     <dimen name="margenRightYLeftMensajeRecibido">30dp</dimen>
 
 </resources>

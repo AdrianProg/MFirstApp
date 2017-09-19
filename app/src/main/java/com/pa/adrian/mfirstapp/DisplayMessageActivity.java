@@ -6,24 +6,36 @@ import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
 
-    TextView tvMensajeRecibido;
+    TextView tvMensajeNombre;
+    TextView tvMensajeApellido;
+    TextView tvMensajeFecha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
 
-        Bundle parametros = getIntent().getExtras();
-        String mensaje = parametros.getString("Mensaje");
+        Bundle parametros       = getIntent().getExtras();
+        String mensajeNombre    = parametros.getString("MensajeNombre");
+        String mensajeApellido  = parametros.getString("MensajeApellido");
+        String mensajeFecha     = parametros.getString("MensajeFecha");
 
-        tvMensajeRecibido=(TextView) findViewById(R.id.tvMensajeRecibido);
+        /* Aquí se capturan los parámetros de los mensajes pasados desde la actividad principal. */
 
-        tvMensajeRecibido.setText(mensaje);
+        tvMensajeNombre=(TextView) findViewById(R.id.tvMensajeNombre);
+        tvMensajeApellido=(TextView) findViewById(R.id.tvMensajeApellido);
+        tvMensajeFecha=(TextView) findViewById(R.id.tvMensajeFecha);
 
-        /* Aquí se captura el parámetro de mensaje pasado desde la actividad principal y se almacena
-         en un TextView creado previamente buscando el id que se le ha asignado para que así resulte
-         más fácil su personalización, ya que se puede hacer desde el visor de texto del layout
-         activity_display_message. */
+        /* Se almacena en los TextView creados previamente buscando sus respectivos id que se les han
+         asignado para que así resulte más fácil su personalización, ya que se puede hacer desde el
+         visor de texto del layout activity_display_message. */
+
+        tvMensajeNombre.setText(R.string.nombreIntroducido + mensajeNombre);
+        tvMensajeApellido.setText(R.string.apellidoIntroducido  + mensajeApellido);
+        tvMensajeFecha.setText(R.string.fechaIntroducida  + mensajeFecha);
+
+        /* Por último se utilizan los setText en los que se introducen los String de los mensajes
+         introducidos en la anterior activity para mostrarlo en ésta. */
 
     }
 }

@@ -1,7 +1,11 @@
 <resources>
     <string name="app_name">Mi primera aplicación</string>
-    <string name="edit_message">Introduce un mensaje:</string>
+    <string name="edit_message_nombre">Introduce tu nombre:</string>
+    <string name="edit_message_apellidos">Introduce tus apellidos:</string>
+    <string name="edit_message_añoNacimiento">Introduce tu año de nacimiento:</string>
     <string name="button_send">Enviar</string>
     <string name="tituloActivity2">Mensaje introducido</string>
-    <string name="textoDefault">No has introducido nada!!</string>
+    <string name="nombreIntroducido">Nombre:</string>
+    <string name="apellidoIntroducido">Apellido:</string>
+    <string name="fechaIntroducida">Año Nacimiento:</string>
 </resources>
