@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Mi primera aplicación</string>
+    <string name="edit_message">Introduce un mensaje:</string>
+    <string name="button_send">Enviar</string>
+    <string name="tituloActivity2">Mensaje introducido</string>
+    <string name="textoDefault">No has introducido nada!!</string>
+</resources>

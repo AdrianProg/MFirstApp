@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="paddingPrincipal">16dp</dimen>
+    <dimen name="tamañoTituloActivity2">35dp</dimen>
+    <dimen name="margenTopBoton">25dp</dimen>
+    <dimen name="margenTopMensajeRecibido">25dp</dimen>
+    <dimen name="tamañoMensajeRecibido">15dp</dimen>
+    <dimen name="margenRightYLeftMensajeRecibido">30dp</dimen>
+
+</resources>

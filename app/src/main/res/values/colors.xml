@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#2dbcad</color>
+    <color name="colorBoton">#4c97c5</color>
+    <color name="colorTituloActivity2">#12b8a7</color>
+    <color name="colorIntroducirTexto">#ffffff</color>
+    <color name="colorLetrasBoton">#ffffff</color>
+    <color name="colorEfectoBoton">#ff00f7</color>
+</resources>
