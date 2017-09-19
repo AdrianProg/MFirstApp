@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         String mensajeNombre       = textInputEditTextNombre.getText().toString();
         String mensajeApellido     = textInputEditTextApellidos.getText().toString();
         String mensajeFecha        = textInputEditTextFechaNacimiento.getText().toString();
+
         intent.putExtra("MensajeNombre", mensajeNombre);
         intent.putExtra("MensajeApellido", mensajeApellido);
         intent.putExtra("MensajeFecha", mensajeFecha);
