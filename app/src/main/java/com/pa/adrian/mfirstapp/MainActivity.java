@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         /*Luego se buscan el los id que previamente se han creado para el EditText (o en este caso
         TextInputEditText)*/
 
+
         String mensajeNombre       = textInputEditTextNombre.getText().toString();
         String mensajeApellido     = textInputEditTextApellidos.getText().toString();
         String mensajeFecha        = textInputEditTextFechaNacimiento.getText().toString();
