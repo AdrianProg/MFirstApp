@@ -10,21 +10,17 @@ public class DisplayMessageActivity extends AppCompatActivity {
     TextView tvMensajeApellido;
     TextView tvMensajeFecha;
 
-    /*Se declaran los TextView.*/
-
-    String nombre           = getResources().getString(R.string.nombreMensajeEnviado);
-    String apellidos        = getResources().getString(R.string.apellidosMensajeEnviado);
-    String añoNacimiento    = getResources().getString(R.string.añoMensajeEnviado);
-
-    /*Se declaran e inician los string con el nombre, apellidos y año de nacimiento que se usarán en
-      la segunda activity para dar una mayor información al usuario. Se usan para ellos los
-      recursos strings almacenados previamente.*/
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
+
+        String nombre = getResources().getString(R.string.nombreMensajeEnviado);
+        String apellidos = getResources().getString(R.string.apellidosMensajeEnviado);
+        String añoNacimiento = getResources().getString(R.string.añoMensajeEnviado);
+
+        /*Se declaran e instancian los string que serviran de ayuda al usuario para un mejor
+        entendimiento y que se han almacenado previamente en el recurso strings*/
 
         Bundle parametros       = getIntent().getExtras();
         String mensajeNombre    = parametros.getString("MensajeNombre");
@@ -33,11 +29,11 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         /* Aquí se capturan los parámetros de los mensajes pasados desde la actividad principal. */
 
-        tvMensajeNombre     =(TextView) findViewById(R.id.tvMensajeNombre);
-        tvMensajeApellido   =(TextView) findViewById(R.id.tvMensajeApellido);
-        tvMensajeFecha      =(TextView) findViewById(R.id.tvMensajeFecha);
+        tvMensajeNombre=(TextView) findViewById(R.id.tvMensajeNombre);
+        tvMensajeApellido=(TextView) findViewById(R.id.tvMensajeApellido);
+        tvMensajeFecha=(TextView) findViewById(R.id.tvMensajeFecha);
 
-        /* Se almacenan en los TextView creados previamente buscando sus respectivos id que se les han
+        /* Se almacena en los TextView creados previamente buscando sus respectivos id que se les han
          asignado para que así resulte más fácil su personalización, ya que se puede hacer desde el
          visor de texto del layout activity_display_message. */
 
