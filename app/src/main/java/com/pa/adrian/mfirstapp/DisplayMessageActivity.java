@@ -15,8 +15,8 @@ public class DisplayMessageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_message);
 
-        String nombre = getResources().getString(R.string.nombreMensajeEnviado);
-        String apellidos = getResources().getString(R.string.apellidosMensajeEnviado);
+        String nombre        = getResources().getString(R.string.nombreMensajeEnviado);
+        String apellidos     = getResources().getString(R.string.apellidosMensajeEnviado);
         String añoNacimiento = getResources().getString(R.string.añoMensajeEnviado);
 
         /*Se declaran e instancian los string que serviran de ayuda al usuario para un mejor

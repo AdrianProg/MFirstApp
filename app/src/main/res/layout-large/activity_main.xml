@@ -39,9 +39,8 @@
             android:hint="@string/edit_message_apellidos"
             android:inputType="text"
             android:maxLines="1"
-            android:maxLength="15"
+            android:maxLength="20"
             android:theme="@style/misLetras"
-
             />
 
     </android.support.design.widget.TextInputLayout>
@@ -69,9 +68,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/margenBottom"
+        android:layout_marginTop="@dimen/margenTopBoton"
         android:onClick="sendMessage"
         android:text="@string/button_send"
         android:theme="@style/MiBoton" />
-
 </LinearLayout>

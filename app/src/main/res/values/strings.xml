@@ -1,11 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Mi primera aplicación</string>
-    <string name="edit_message_nombre">Introduce tu nombre:</string>
-    <string name="edit_message_apellidos">Introduce tus apellidos:</string>
-    <string name="edit_message_añoNacimiento">Introduce tu año de nacimiento:</string>
+    <string name="edit_message_nombre">Nombre:</string>
+    <string name="edit_message_apellidos">Apellidos:</string>
+    <string name="edit_message_añoNacimiento">Año:</string>
     <string name="button_send">Enviar</string>
     <string name="tituloActivity2">Mensaje introducido</string>
-    <string name="nombreMensajeEnviado">Nombre:</string>
-    <string name="apellidosMensajeEnviado">Apellidos:</string>
-    <string name="añoMensajeEnviado">Año de nacimiento:</string>
+    <string name="nombreMensajeEnviado">- Nombre:</string>
+    <string name="apellidosMensajeEnviado">- Apellidos:</string>
+    <string name="añoMensajeEnviado">- Año:</string>
 </resources>

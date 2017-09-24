@@ -3,9 +3,15 @@
 
     <dimen name="paddingPrincipal">16dp</dimen>
     <dimen name="tamañoTituloActivity2">35sp</dimen>
-    <dimen name="margenTopBoton">25dp</dimen>
-    <dimen name="margenTopMensajeRecibido">25sp</dimen>
+    <dimen name="margenTopBoton">30dp</dimen>
+    <dimen name="margenTopMensajeRecibido">20sp</dimen>
     <dimen name="tamañoMensajeRecibido">15sp</dimen>
     <dimen name="margenRightYLeftMensajeRecibido">30dp</dimen>
+    <dimen name="tamañoEditTextLand">150dp</dimen>
+    <dimen name="margenRightBoton">60dp</dimen>
+    <dimen name="margenBottom">30dp</dimen>
+    <dimen name="margenEditTextLand">40dp</dimen>
+    <dimen name="margenDerechoMensaje">60dp</dimen>
+    <dimen name="margenDerechoNombreMensaje">10dp</dimen>
 
 </resources>

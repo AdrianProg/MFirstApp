@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My firt application</string>
+    <string name="edit_message_nombre">Name:</string>
+    <string name="edit_message_apellidos">Last names:</string>
+    <string name="edit_message_añoNacimiento">Year:</string>
+    <string name="button_send">Send</string>
+    <string name="tituloActivity2">Message inserted</string>
+    <string name="nombreMensajeEnviado">- Name:</string>
+    <string name="apellidosMensajeEnviado">- Last names:</string>
+    <string name="añoMensajeEnviado">- Year of birth:</string>
+</resources>

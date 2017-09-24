@@ -27,7 +27,7 @@
         android:layout_marginTop="@dimen/margenTopMensajeRecibido"
         android:layout_marginLeft="@dimen/margenRightYLeftMensajeRecibido"
         android:layout_marginRight="@dimen/margenRightYLeftMensajeRecibido"
-        android:textColor="@color/colorHint"
+        android:theme="@style/misLetras"
         />
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_marginTop="@dimen/margenTopMensajeRecibido"
         android:layout_marginLeft="@dimen/margenRightYLeftMensajeRecibido"
         android:layout_marginRight="@dimen/margenRightYLeftMensajeRecibido"
-        android:textColor="@color/colorHint"
+        android:theme="@style/misLetras"
         />
 
     <TextView
@@ -49,7 +49,7 @@
         android:layout_marginTop="@dimen/margenTopMensajeRecibido"
         android:layout_marginLeft="@dimen/margenRightYLeftMensajeRecibido"
         android:layout_marginRight="@dimen/margenRightYLeftMensajeRecibido"
-        android:textColor="@color/colorHint"
+        android:theme="@style/misLetras"
         />
 
 </LinearLayout>

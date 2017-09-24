@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
@@ -13,6 +14,13 @@
         <item name="colorButtonNormal">@color/colorBoton</item>
         <item name="colorControlHighlight">@color/colorEfectoBoton</item>
         <item name="android:textColor">@color/colorLetrasBoton</item>
+    </style>
+
+    <style name="misLetras" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textColorHint">@color/colorHint</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
 </resources>
